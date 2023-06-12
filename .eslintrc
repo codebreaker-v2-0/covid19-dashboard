@@ -23,6 +23,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "react/no-unknown-property": ["error", {"ignore": ["testid"]}],
     "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
     "react/state-in-constructor": "off",
     "react/react-in-jsx-scope": "off",
