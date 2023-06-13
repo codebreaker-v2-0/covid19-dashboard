@@ -4,11 +4,14 @@ import Home from './components/Home'
 import StatePage from './components/StatePage'
 import About from './components/About'
 import NotFound from './components/NotFound'
+import Header from './components/Header'
 
 import './App.css'
 
 const App = () => (
   <div className="app-container">
+    <Header />
+
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/state/:stateCode" component={StatePage} />

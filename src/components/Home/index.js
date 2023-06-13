@@ -276,7 +276,6 @@ class Home extends Component {
   render() {
     return (
       <>
-        <Header />
         <div className="home-container">
           <Container className="flex-col gap-2">
             {this.renderContent()}

@@ -7,12 +7,11 @@ export default function Footer() {
     <div className="footer flex-col gap-1">
       <h1 className="logo-text">COVID19INDIA</h1>
       <p>we stand with everyone fighting on the front lines</p>
-
-      <VscGithubAlt className="icon" />
-
-      <FiInstagram className="icon" />
-
-      <FaTwitter className="icon" />
+      <div className="flex center">
+        <VscGithubAlt className="icon" />
+        <FiInstagram className="icon" />
+        <FaTwitter className="icon" />
+      </div>
     </div>
   )
 }
